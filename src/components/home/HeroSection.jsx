@@ -108,14 +108,14 @@ const HeroSection = () => {
                 Find Providers Near You
                 <Search className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </Button>
-              <Link to={"#learn-more"}>
+              <Link to={"/contact"}>
               <Button
                 // onClick={handleLearnMore}
                 variant="outline"
                 size="lg"
                 className="border-border text-muted-foreground hover:text-primary hover:border-primary hover:bg-primary/5 px-7 py-3 sm:px-8 sm:py-3.5 rounded-full text-base sm:text-lg transition-all duration-300 w-full sm:w-auto shadow-sm hover:show-md"
               >
-                Learn How We Help
+                Get a Quote
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </Button>
               </Link>
