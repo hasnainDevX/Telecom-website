@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <LocationForm />
+      {/* <LocationForm /> */}
     </div>
   );
 };
