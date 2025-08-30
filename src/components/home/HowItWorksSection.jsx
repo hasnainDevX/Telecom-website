@@ -7,8 +7,8 @@ const HowItWorksSection = () => {
   const steps = [
     {
       icon: Search,
-      title: 'Enter Your Address',
-      description: 'Tell us where you are to see a list of internet, TV, and phone providers available in your specific area.',
+      title: 'Fill the form',
+      description: 'Provide your zip code and fill out the form then we can find the best options for you.',
       color: 'text-blue-500 dark:text-blue-400',
       imageAlt: 'Search icon with a location pin.'
     },
@@ -22,7 +22,7 @@ const HowItWorksSection = () => {
     {
       icon: CheckSquare,
       title: 'Choose the Best Fit',
-      description: 'Use our unbiased information and tools to select the telecom services that best match your needs and budget.',
+      description: 'We will help you find the best plan that fits your needs.',
       color: 'text-green-500 dark:text-green-400',
       imageAlt: 'Check square icon, representing making a selection.'
     },
@@ -67,7 +67,7 @@ const HowItWorksSection = () => {
             Finding Your Best Option is Simple
           </h2>
           <p className="section-subtitle max-w-xl mx-auto">
-            Follow these easy steps to discover and compare telecom services with FiberSolution.
+            Follow these easy steps to discover and compare telecom services with GoQuality Networks.
           </p>
         </motion.div>
 

@@ -48,7 +48,7 @@ const Privacy = () => {
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Your privacy is critically important to us at FiberSolution. This
+              Your privacy is critically important to us at Go Quality Networks. This
               policy outlines how we collect, use, protect, and handle your
               personal information.
             </p>
@@ -113,11 +113,11 @@ const Privacy = () => {
                 <div className="space-y-8">
                   <div>
                     <p className="text-muted-foreground mb-3 leading-relaxed">
-                      Welcome to Fiber Solution. Your privacy matters to us, and
+                      Welcome to Go Quality Networks. Your privacy matters to us, and
                       we are committed to safeguarding your personal
                       information. This Privacy Policy outlines how we collect,
                       use, and protect your data when you visit our website
-                      https://fibersolution.net/ and use our services.
+                      https://goqualitynetworks.com/ and use our services.
                     </p>
                     <p className="text-muted-foreground leading-relaxed">
                       By accessing our website, you agree to the practices
@@ -162,7 +162,7 @@ const Privacy = () => {
               <PrivacySection title="2. How We Use Your Information">
                 <div className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    FiberSolution uses the collected information for the
+                    Go Quality Networks uses the collected information for the
                     following primary purposes:
                   </p>
                   <ul className="list-disc list-inside text-muted-foreground space-y-3 ml-4">
@@ -190,7 +190,7 @@ const Privacy = () => {
                       We Do NOT Sell Your Personal Information
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      FiberSolution is committed to protecting your privacy. We
+                      Go Quality Networksolution is committed to protecting your privacy. We
                       do not sell, rent, or trade your personal information to
                       third parties for their marketing purposes.
                     </p>
@@ -243,7 +243,7 @@ const Privacy = () => {
               <PrivacySection title="4. Your Privacy Rights and Choices">
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Depending on your jurisdiction, you may have certain rights
-                  regarding your personal information. FiberSolution is
+                  regarding your personal information. Go Quality Networksolution is
                   committed to honoring these rights. These may include:
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-3 ml-4">
@@ -314,7 +314,7 @@ const Privacy = () => {
 
               <PrivacySection title="6. Children's Privacy">
                 <p className="text-muted-foreground leading-relaxed">
-                  FiberSolution's services are not directed to individuals under
+                  Go Quality Networksolution's services are not directed to individuals under
                   the age of 13 (or a higher age threshold as required by
                   applicable local law). We do not knowingly collect personal
                   information from children under this age. If we become aware
@@ -366,7 +366,7 @@ const Privacy = () => {
                   <p className="text-yellow-600 dark:text-yellow-400 text-sm font-medium flex items-start">
                     <Edit3 className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
                     We encourage you to review this Privacy Policy periodically
-                    to stay informed about how FiberSolution is protecting your
+                    to stay informed about how Go Quality Networks is protecting your
                     information and to be aware of any modifications. Your
                     continued use of our services after any changes to this
                     Privacy Policy will constitute your acceptance of such
@@ -388,10 +388,10 @@ const Privacy = () => {
                     <span className="text-muted-foreground">
                       <strong className="text-foreground">Email:</strong>{" "}
                       <a
-                        href="mailto:privacy@fibersolution.net"
+                        href="mailto:info@goqualitynetworks.com"
                         className="text-primary hover:underline"
                       >
-                        privacy@fibersolution.net
+                        info@goqualitynetworks.com
                       </a>
                     </span>
                   </div>
@@ -400,10 +400,10 @@ const Privacy = () => {
                     <span className="text-muted-foreground">
                       <strong className="text-foreground">Phone:</strong>{" "}
                       <a
-                        href="tel:1-800-342-3763"
+                        href="tel:+13467927838"
                         className="text-primary hover:underline"
                       >
-                        1-800-FIBER-NET
+                        +1 (346) 792-7838s
                       </a>{" "}
                       (Select option for Privacy Office)
                     </span>
@@ -415,11 +415,10 @@ const Privacy = () => {
                         Mailing Address:
                       </strong>
                       <br />
-                      FiberSolution Privacy Office
+                      Go Quality Networks Office
                       <br />
-                      123 Fiber Optic Avenue
                       <br />
-                      Tech City, TC 12345, USA
+                      Houston, TX, USA
                     </span>
                   </div>
                 </div>

@@ -5,9 +5,9 @@ import { Users, BarChart3, ListChecks, Smile } from 'lucide-react';
 
 const StatsSection = () => {
   const stats = [
-    { icon: Users, number: '100K+', label: 'Users Helped Monthly' },
+    { icon: Users, number: '200+', label: 'Users Helped Monthly' },
     { icon: ListChecks, number: '500+', label: 'Providers Compared' },
-    { icon: BarChart3, number: '10K+', label: 'Plans Detailed' },
+    { icon: BarChart3, number: '300+', label: 'Plans Detailed' },
     { icon: Smile, number: '95%', label: 'User Satisfaction Rate' }
   ];
 
@@ -40,7 +40,7 @@ const StatsSection = () => {
           className="text-center mb-14 md:mb-20"
         >
           <h2 className="section-title mb-4">
-            FiberSolution by the Numbers
+            Go Quality Networks by the Numbers
           </h2>
           <p className="section-subtitle max-w-xl mx-auto">
             We're proud of our impact in helping users navigate the complex world of telecom services.

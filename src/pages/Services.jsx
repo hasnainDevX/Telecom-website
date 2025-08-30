@@ -32,7 +32,7 @@ const Services = () => {
       icon: Wifi,
       title: "Internet Services Guidance",
       description:
-        "FiberSolution helps you compare internet providers, plans, and speeds available in your area. Understand the differences between fiber, cable, DSL, 5G home internet, and satellite to make an informed decision that fits your browsing, streaming, and gaming needs.",
+        "Go Quality Networks helps you compare internet providers, plans, and speeds available in your area. Understand the differences between fiber, cable, DSL, 5G home internet, and satellite to make an informed decision that fits your browsing, streaming, and gaming needs.",
       features: [
         "Side-by-side provider comparisons",
         "Breakdown of different internet technologies",
@@ -48,7 +48,7 @@ const Services = () => {
       icon: Tv,
       title: "TV Package Comparisons",
       description:
-        "Navigate the complex world of TV packages with FiberSolution. We provide tools to compare channel lineups, streaming service integrations, DVR options, and pricing from various providers, helping you find the best entertainment value.",
+        "Navigate the complex world of TV packages with Go Quality Networks. We provide information to compare channel lineups, streaming service integrations, DVR options, and pricing from various providers, helping you find the best entertainment value.",
       features: [
         "Compare cable, satellite, and streaming TV options",
         "Detailed channel lineup comparisons",
@@ -64,7 +64,7 @@ const Services = () => {
       icon: PhoneCall,
       title: "Home & Business Phone Advice",
       description:
-        "Whether you need a traditional landline, a VoIP solution for your home, or a comprehensive phone system for your business, FiberSolution offers insights to compare features, call quality, pricing, and provider reliability.",
+        "Whether you need a traditional landline, a VoIP solution for your home, or a comprehensive phone system for your business, Go Quality Networks offers insights to compare features, call quality, pricing, and provider reliability.",
       features: [
         "Understand VoIP vs. traditional landline pros & cons",
         "Compare residential and business phone plans",
@@ -80,7 +80,7 @@ const Services = () => {
       icon: Package,
       title: "Bundle & Save Insights",
       description:
-        "Learn how bundling multiple services like internet, TV, and phone from a single provider can lead to significant savings and simplified billing. FiberSolution helps you identify and compare available bundle deals.",
+        "Learn how bundling multiple services like internet, TV, and phone from a single provider can lead to significant savings and simplified billing. Go Quality Networks helps you identify and compare available bundle deals.",
       features: [
         "Discover available double-play and triple-play bundles",
         "Calculate potential monthly and annual savings",
@@ -129,7 +129,7 @@ const Services = () => {
               Our Telecom Guidance Services
             </h1>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              FiberSolution empowers you to make informed decisions about your
+              Go Quality Networks empowers you to make informed decisions about your
               internet, TV, and phone services. Explore how we can help you.
             </p>
           </motion.div>
@@ -222,7 +222,7 @@ const Services = () => {
               </span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              FiberSolution is dedicated to providing accurate, up-to-date, and
+              At Go Quality Networks, we are dedicated to providing accurate, up-to-date, and
               unbiased information to help you make the best telecom choices.
             </p>
           </motion.div>
@@ -237,9 +237,9 @@ const Services = () => {
               },
               {
                 icon: Users,
-                title: "User-Friendly Tools",
+                title: "User-Friendly Guides",
                 description:
-                  "Our comparison tools are designed to be simple, intuitive, and effective.",
+                  "Our guides are designed to be easy to understand and follow.",
               },
               {
                 icon: CheckCircle,
@@ -292,7 +292,7 @@ const Services = () => {
               </span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-xl mx-auto leading-relaxed">
-              Use our tools and resources to compare telecom services and find
+              Contact us and find
               the best options available in your area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

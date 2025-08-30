@@ -78,7 +78,7 @@ const FeaturesSection = () => {
           className="text-center mb-14 md:mb-20"
         >
           <h2 className="section-title mb-4">
-            How FiberSolution Guides You
+            How Go Quality Networks Guides You
           </h2>
           <p className="section-subtitle max-w-2xl mx-auto">
             We simplify the process of choosing telecom services. Get clear insights and find the best options available to you.

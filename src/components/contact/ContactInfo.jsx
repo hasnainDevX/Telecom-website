@@ -5,16 +5,16 @@ import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 
 const ContactInfo = () => {
   const contactDetails = [
-    { icon: Phone, label: 'Sales & Support', value: '1-800-FIBER-NET', href: 'tel:1-800-342-3763' },
-    { icon: Mail, label: 'General Inquiries', value: 'info@fibersolution.net', href: 'mailto:info@fibersolution.net' },
-    { icon: MessageSquare, label: 'Support Email', value: 'support@fibersolution.net', href: 'mailto:support@fibersolution.net' },
-    { icon: MapPin, label: 'Corporate Office', value: '123 Fiber Optic Ave, Tech City, TC 12345' },
+    { icon: Phone, label: 'Customer Support', value: '+1 (346) 792-7838', href: '+1 (346) 792-7838' },
+    { icon: Mail, label: 'General Inquiries', value: 'info@goqualitynetworks.com', href: 'mailto:info@goqualitynetworks.com' },
+    { icon: MessageSquare, label: 'Support Email', value: 'support@goqualitynetworks.com', href: 'mailto:support@goqualitynetworks.com' },
+    { icon: MapPin, label: 'Corporate Office', value: 'Houston, TX' },
   ];
 
   const businessHours = [
-    { day: 'Monday - Friday', hours: '8 AM - 9 PM EST' },
-    { day: 'Saturday', hours: '9 AM - 7 PM EST' },
-    { day: 'Sunday', hours: '10 AM - 6 PM EST (Support)' }
+    { day: 'Monday - Friday', hours: '8 AM - 9 PM' },
+    { day: 'Saturday', hours: '9 AM - 7 PM' },
+    { day: 'Sunday', hours: '10 AM - 6 PM' }
   ];
 
   return (

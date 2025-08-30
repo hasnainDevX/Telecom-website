@@ -22,7 +22,7 @@ const CtaSection = () => {
           </h2>
           <p className="text-lg sm:text-xl opacity-90 mb-10 max-w-2xl mx-auto leading-relaxed">
             Start comparing internet, TV, and phone services in your area.
-            FiberSolution provides the insights you need to choose with
+            Go Quality Networks provides the insights you need to choose with
             confidence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

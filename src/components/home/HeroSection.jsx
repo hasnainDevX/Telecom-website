@@ -76,7 +76,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">
-              FiberSolution helps you compare internet, TV, and phone services. Find the best providers and plans in your area with our expert guidance and easy-to-use tools.
+              Go Quality Networks helps you compare internet, TV, and phone services. Find the best providers and plans in your area with our expert guidance.
             </p>
 
             <ul className="space-y-2.5 max-w-md mx-auto lg:mx-0 pt-2">

@@ -43,7 +43,7 @@ const Terms = () => {
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              These terms govern your use of FiberSolution services. Please read
+              These terms govern your use of Go Quality Networks services. Please read
               them carefully as they contain important information about your
               rights and obligations.
             </p>
@@ -104,14 +104,14 @@ const Terms = () => {
             <div className="space-y-10">
               <TermsSection title="Acceptance of Terms" sectionNumber="1">
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  By using FiberSolution services, accessing our website, or
+                  By using Go Quality Networks services, accessing our website, or
                   signing up for our internet plans, you agree to be bound by
                   these Terms of Service ("Terms"). If you do not agree to these
                   Terms, please do not use our services.
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   These Terms constitute a legally binding agreement between you
-                  ("Customer," "you," or "your") and FiberSolution ("Company,"
+                  ("Customer," "you," or "your") and Go Quality Networks ("Company,"
                   "we," "us," or "our").
                 </p>
                 <div className="bg-primary/10 border border-primary/30 rounded-lg p-4 mt-6">
@@ -127,7 +127,7 @@ const Terms = () => {
                 <div className="space-y-6">
                   <div>
                     <p className="text-muted-foreground mb-3 leading-relaxed">
-                      FiberSolution helps residential and business customers
+                      Go Quality Networks helps residential and business customers
                       choose the best high-speed fiber optic internet and TV
                       services available in their area. Our assistance includes:
                     </p>
@@ -232,7 +232,7 @@ const Terms = () => {
                   </ul>
                   <div className="bg-yellow-500/10 dark:bg-yellow-500/5 border border-yellow-500/30 rounded-lg p-4 mt-6">
                     <p className="text-yellow-600 dark:text-yellow-400 text-sm font-medium">
-                      <strong>Note:</strong> FiberSolution is committed to
+                      <strong>Note:</strong> Go Quality Networks is committed to
                       making commercially reasonable efforts to provide
                       high-quality service consistent with industry standards.
                       We continuously monitor and manage our network to deliver
@@ -267,13 +267,13 @@ const Terms = () => {
                 
                     <p className="text-red-600 dark:text-red-400 text-sm leading-relaxed">
                       Please read this section carefully as it significantly
-                      limits our liability to you. Your use of FiberSolution
+                      limits our liability to you. Your use of Go Quality Networks
                       services is subject to these limitations.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-primary mb-3">
-                      Fiber Solutions is not responsible for:
+                      Go Quality Networks is not responsible for:
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
                       ❌ Changes in pricing, availability, or service quality
@@ -329,10 +329,10 @@ const Terms = () => {
                     <span className="text-muted-foreground">
                       <strong className="text-foreground">Legal Email:</strong>{" "}
                       <a
-                        href="mailto:legal@fibersolution.net"
+                        href="mailto:info@goqualitynetworks.com"
                         className="text-primary hover:underline"
                       >
-                        legal@fibersolution.net
+                        info@goqualitynetworks.com
                       </a>
                     </span>
                   </div>
@@ -346,7 +346,7 @@ const Terms = () => {
                         href="tel:1-800-342-3763"
                         className="text-primary hover:underline"
                       >
-                        1-800-FIBER-NET
+                        +1 (346) 792-7838s
                       </a>
                     </span>
                   </div>
@@ -357,11 +357,10 @@ const Terms = () => {
                         Mailing Address:
                       </strong>
                       <br />
-                      FiberSolution Department
+                      Go Quality Networks Department
                       <br />
-                      123 Fiber Optic Avenue
                       <br />
-                      Tech City, TC 12345, USA
+                      Houston, TX, USA
                     </span>
                   </div>
                 </div>
@@ -376,7 +375,7 @@ const Terms = () => {
 
               <TermsSection title="Acknowledgment">
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  By using FiberSolution services, you acknowledge that you have read these Terms of
+                  By using Go Quality Networks services, you acknowledge that you have read these Terms of
                   Service, understand them, and agree to be bound by all of the
                   terms and conditions herein, as well as our Privacy Policy and
                   Acceptable Use Policy, which are incorporated by reference.

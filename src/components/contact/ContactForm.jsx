@@ -134,8 +134,8 @@ const ContactForm = () => {
       transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
       className="bg-card rounded-xl p-6 md:p-8 shadow-xl animate-pulse-glow"
     >
-      <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-        Send Us a Message
+      <h2 className="text-3xl md:text-3xl font-bold text-foreground mb-6">
+        Contact us
       </h2>
       <form ref={form} onSubmit={handleSubmit} className="space-y-5">
         <div className="grid sm:grid-cols-2 gap-5">
@@ -191,7 +191,7 @@ const ContactForm = () => {
               value={formData.phone}
               onChange={handleChange}
               className={inputClass}
-              placeholder="(555) 123-4567"
+              placeholder="Enter your phone number"
             />
             {errors.phone && <p className={errorClass}>{errors.phone}</p>}
           </div>

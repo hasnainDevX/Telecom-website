@@ -5,6 +5,7 @@ import { Menu, X, Zap, Phone, Mail, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { useTheme } from "@/components/theme/ThemeProvider";
+import logo from "../../assets/gqnlogo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,11 +35,11 @@ const Header = () => {
     { name: "FAQ", path: "/faq" },
   ];
 
-  const handleCallClick = () => {
+  const handleGetConnected = () => {
     toast({
-      title: "📞 Call Us Now!",
+      title: "Get Connected",
       description:
-        "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
+        "Fill out the form and we will get back to you shortly.",
     });
   };
 
@@ -69,16 +70,16 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-1">
               <Phone className="w-3.5 h-3.5" />
-              <span>1-800-FIBER-NET</span>
+              <span>+1 (346) 792-7838</span>
             </div>
             <div className="hidden sm:flex items-center space-x-1">
               <Mail className="w-3.5 h-3.5" />
-              <span>support@fibersolution.net</span>
+              <span>support@goqualitynetworks.com</span>
             </div>
           </div>
           <div className="hidden md:block">
             <span className="font-medium">
-              🚀 Get FiberSolution - Limited Time Offer!
+              🚀 Get Go Quality Networks - Limited Time Offer!
             </span>
           </div>
         </div>
@@ -87,11 +88,11 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-3.5">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="relative p-1.5 bg-primary/10 rounded-full">
-              <Zap className="w-6 h-6 text-primary group-hover:text-accent transition-colors duration-300" />
-            </div>
+            {/* <div className="relative p-1.5 bg-primary/10 rounded-full"> */}
+              <img src={logo} alt="Go Quality Networks Logo" className="w-12 h-12 scale-125"/>
+            {/* </div> */}
             <span className="text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors duration-300">
-              FiberSolution
+              Go Quality Networks
             </span>
           </Link>
 
@@ -140,7 +141,7 @@ const Header = () => {
             <div className="hidden lg:block ml-2">
               <Link to="/contact">
                 <Button
-                  onClick={handleCallClick}
+                  onClick={handleGetConnected}
                   size="sm"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-5 py-2.5 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/30"
                 >

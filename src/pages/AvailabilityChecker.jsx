@@ -73,7 +73,7 @@ const AvailabilityChecker = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Enter your address to see if our ultra-fast fiber internet is available in your area. 
+              Enter your address to see if our ultra-fast  internet is available in your area. 
               Get instant results and available plans.
             </p>
           </motion.div>
@@ -89,13 +89,13 @@ const AvailabilityChecker = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="glass rounded-3xl p-8 mb-12 fiber-glow"
+              className="glass rounded-3xl p-8 mb-12 -glow"
             >
               <form onSubmit={handleCheck} className="space-y-6">
                 <div className="text-center mb-8">
                   <MapPin className="w-12 h-12 text-blue-400 mx-auto mb-4" />
                   <h2 className="text-3xl font-bold text-white mb-2">Enter Your Address</h2>
-                  <p className="text-gray-400">We'll check if fiber internet is available at your location</p>
+                  <p className="text-gray-400">We'll check if  internet is available at your location</p>
                 </div>
 
                 <div className="relative">
@@ -163,8 +163,8 @@ const AvailabilityChecker = () => {
                     </h3>
                     <p className="text-xl text-gray-300 mb-4">
                       {result.available 
-                        ? 'Fiber internet is available at your location!'
-                        : 'Fiber internet is not currently available at your address.'
+                        ? ' internet is available at your location!'
+                        : ' internet is not currently available at your address.'
                       }
                     </p>
                     <p className="text-gray-400">
@@ -192,7 +192,7 @@ const AvailabilityChecker = () => {
                           initial={{ opacity: 0, y: 30 }}
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.6, delay: index * 0.1 }}
-                          className="glass rounded-2xl p-6 hover:fiber-glow transition-all duration-300"
+                          className="glass rounded-2xl p-6 hover:-glow transition-all duration-300"
                         >
                           <div className="text-center mb-6">
                             <Zap className="w-10 h-10 text-blue-400 mx-auto mb-3" />
@@ -220,7 +220,7 @@ const AvailabilityChecker = () => {
                   <div className="glass rounded-2xl p-8 text-center">
                     <h3 className="text-2xl font-bold text-white mb-4">Don't Give Up!</h3>
                     <p className="text-gray-300 mb-6">
-                      We're constantly expanding our fiber network. Contact us to learn about upcoming availability 
+                      We're constantly expanding our  network. Contact us to learn about upcoming availability 
                       in your area or explore alternative solutions.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -265,7 +265,7 @@ const AvailabilityChecker = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              We're rapidly expanding our fiber network across the region. See our current coverage areas 
+              We're rapidly expanding our  network across the region. See our current coverage areas 
               and planned expansions.
             </p>
           </motion.div>
@@ -274,17 +274,17 @@ const AvailabilityChecker = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="glass rounded-3xl p-8 fiber-glow"
+            className="glass rounded-3xl p-8 -glow"
           >
             <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl flex items-center justify-center">
               <img 
-                alt="Interactive coverage map showing fiber internet availability across different regions"
+                alt="Interactive coverage map showing  internet availability across different regions"
                 className="w-full h-full object-cover rounded-2xl"
                src="https://images.unsplash.com/photo-1604869515882-4d10fa4b0492" />
             </div>
             <div className="mt-6 text-center">
               <p className="text-gray-400 mb-4">
-                Interactive map showing current and planned fiber coverage areas
+                Interactive map showing current and planned  coverage areas
               </p>
               <Button
                 onClick={() => toast({
@@ -324,8 +324,8 @@ const AvailabilityChecker = () => {
                 answer: "Our availability checker uses real-time data from our network infrastructure to provide accurate results. However, final confirmation is done during the installation appointment."
               },
               {
-                question: "What if fiber isn't available in my area?",
-                answer: "We're constantly expanding our network. Contact us to be notified when fiber becomes available in your area, or ask about alternative high-speed options."
+                question: "What if  isn't available in my area?",
+                answer: "We're constantly expanding our network. Contact us to be notified when  becomes available in your area, or ask about alternative high-speed options."
               },
               {
                 question: "How long does installation take?",

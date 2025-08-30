@@ -1,10 +1,21 @@
-import { motion } from 'framer-motion';
-import ContactForm from '@/components/contact/ContactForm';
-import ContactInfo from '@/components/contact/ContactInfo';
-import { MessageSquare, Globe } from 'lucide-react';
-import LocationForm from '@/components/LocationForm';
+import { motion } from "framer-motion";
+import ContactForm from "@/components/contact/ContactForm";
+import ContactInfo from "@/components/contact/ContactInfo";
+import { Button } from "@/components/ui/button";
+import { MessageSquare, Globe } from "lucide-react";
+// import LocationForm from "@/components/LocationForm";
+import { useToast } from "@/components/ui/use-toast";
+
 
 const Contact = () => {
+  const { toast } = useToast();
+
+  const copyEmailToClipboard = () => {
+    navigator.clipboard.writeText("info@goqualitynetworks.com");
+      toast({
+        title: "Email Copied!",
+      });
+  };
   return (
     <div className="pt-20 min-h-screen bg-background text-foreground">
       <section className="pt-16 md:pt-20 bg-gradient-to-br from-background via-background/95 to-background/90 dark:from-background dark:via-background/90 dark:to-background/85">
@@ -22,7 +33,9 @@ const Contact = () => {
               Get in Touch
             </h1>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              We're here to help! Whether you have questions about using our platform or need guidance in your telecom search, our team is ready to assist you.
+              We're here to help! Whether you have questions about using our
+              platform or need guidance in your telecom search, our team is
+              ready to assist you.
             </p>
           </motion.div>
         </div>
@@ -43,22 +56,26 @@ const Contact = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, ease: "easeOut"}}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center max-w-2xl mx-auto"
           >
             <div className="inline-block p-2.5 bg-primary/10 rounded-xl mb-4">
               <Globe className="w-7 h-7 text-primary" />
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-3">Nationwide Guidance</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-3">
+              Nationwide Guidance
+            </h2>
             <p className="text-muted-foreground mb-5 text-sm sm:text-base">
-              While we don't have physical offices for visits, FiberSolution proudly offers telecom comparison guidance to users all across the United States. Our online platform is accessible anytime, anywhere.
+              Go Quality Networks proudly offers telecom comparison guidance to users all across the
+              United States. Our online platform is accessible anytime,
+              anywhere.
             </p>
-            <a 
-              href="mailto:info@fibersolution.net"
-              className="inline-block text-sm sm:text-base font-medium text-primary hover:text-accent transition-colors duration-300 underline underline-offset-4"
+            <Button
+              onClick={copyEmailToClipboard}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-2 px-4 rounded-md"
             >
-              Email Us for Support
-            </a>
+              Copy Email
+            </Button>
           </motion.div>
         </div>
       </section>

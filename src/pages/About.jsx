@@ -9,39 +9,39 @@ import { useToast } from '@/components/ui/use-toast';
 const About = () => {
   const { toast } = useToast();
 
-  const handleJoinTeam = () => {
-    toast({
-      title: "💼 Join Our Team",
-      description: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
-    });
-  };
+  // const handleJoinTeam = () => {
+  //   toast({
+  //     title: "💼 Join Our Team",
+  //     description: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
+  //   });
+  // };
 
-  const teamMembers = [
-    {
-      name: 'Alice Johnson',
-      role: 'Founder & CEO',
-      bio: 'Alice leads FiberSolution with a passion for empowering consumers with clear, actionable telecom information.',
-      imageAlt: 'Professional headshot of Alice Johnson, a confident female CEO.'
-    },
-    {
-      name: 'Robert Chen',
-      role: 'Head of Research & Data',
-      bio: 'Robert ensures our data is accurate and our comparison tools are cutting-edge, providing users the best insights.',
-      imageAlt: 'Professional headshot of Robert Chen, a male data expert.'
-    },
-    {
-      name: 'Maria Garcia',
-      role: 'Director of User Advocacy',
-      bio: 'Maria champions the user experience, ensuring our platform is intuitive and truly helpful for everyone.',
-      imageAlt: 'Professional headshot of Maria Garcia, a friendly female advocate.'
-    }
-  ];
+  // const teamMembers = [
+  //   {
+  //     name: 'Alice Johnson',
+  //     role: 'Founder & CEO',
+  //     bio: 'Alice leads Go Quality Networks with a passion for empowering consumers with clear, actionable telecom information.',
+  //     imageAlt: 'Professional headshot of Alice Johnson, a confident female CEO.'
+  //   },
+  //   {
+  //     name: 'Robert Chen',
+  //     role: 'Head of Research & Data',
+  //     bio: 'Robert ensures our data is accurate and our comparison tools are cutting-edge, providing users the best insights.',
+  //     imageAlt: 'Professional headshot of Robert Chen, a male data expert.'
+  //   },
+  //   {
+  //     name: 'Maria Garcia',
+  //     role: 'Director of User Advocacy',
+  //     bio: 'Maria champions the user experience, ensuring our platform is intuitive and truly helpful for everyone.',
+  //     imageAlt: 'Professional headshot of Maria Garcia, a friendly female advocate.'
+  //   }
+  // ];
 
   const values = [
     {
       icon: Target,
       title: 'User Empowerment',
-      description: 'We put users first, providing tools and information to make confident telecom choices.',
+      description: 'We put users first, providing clear information to make confident telecom choices.',
       color: 'text-blue-500 dark:text-blue-400'
     },
     {
@@ -78,7 +78,7 @@ const About = () => {
               <Compass className="w-10 h-10 md:w-12 md:h-12 text-primary" />
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 tracking-tight">
-              About FiberSolution
+              About Go Quality Networks
             </h1>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Your trusted guide to navigating the world of internet, TV, and phone services. We empower you to choose wisely.
@@ -100,10 +100,10 @@ const About = () => {
                 Our Mission: Simplifying Your Telecom Choices
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
-                At FiberSolution, our mission is to demystify the often confusing landscape of telecom services. We believe everyone deserves access to clear, unbiased information to find internet, TV, and phone plans that perfectly suit their needs and budget.
+                At Go Quality Networks, our mission is to demystify the often confusing landscape of telecom services. We believe everyone deserves access to clear, unbiased information to find internet, TV, and phone plans that perfectly suit their needs and budget.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-7">
-                We are dedicated to providing comprehensive comparison tools, expert guides, and genuine user reviews. We're not a service provider; we're your independent ally in making informed decisions for your home or business connectivity.
+                We are dedicated to providing comprehensive comparison, expert guides, and genuine user reviews. We're not a service provider; we're your independent ally in making informed decisions for your home or business connectivity.
               </p>
               <Link to="/services">
                 <Button

@@ -21,7 +21,7 @@ const FAQ = () => {
 
   const categories = [
     { id: "all", name: "All Questions", icon: HelpCircle },
-    { id: "general", name: "About FiberSolution", icon: Info },
+    { id: "general", name: "About Go Quality Networks", icon: Info },
     { id: "comparison", name: "Comparing Services", icon: BarChart3 },
     { id: "providers", name: "Understanding Providers", icon: ShieldCheck },
     { id: "internet", name: "Internet Specifics", icon: Wifi },
@@ -32,9 +32,9 @@ const FAQ = () => {
   const faqData = [
     {
       category: "general",
-      question: "What does FiberSolution do?",
+      question: "What does Go Quality Networks do?",
       answer:
-        "FiberSolution is an online platform that helps you compare and choose the best internet, TV, and phone services in your area. We provide tools, guides, and unbiased information to simplify your decision‑making process.",
+        "Go Quality Networks is an online platform that helps you compare and choose the best internet, TV, and phone services in your area. We provide guides, and unbiased information to simplify your decision‑making process.",
     },
     {
       category: "general",
@@ -135,7 +135,7 @@ const FAQ = () => {
               Frequently Asked Questions
             </h1>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Find answers to common questions about using FiberSolution and
+              Find answers to common questions about using Go Quality Networks and
               navigating telecom services.
             </p>
           </motion.div>

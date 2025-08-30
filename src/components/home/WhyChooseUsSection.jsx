@@ -61,10 +61,10 @@ const WhyChooseUsSection = () => {
           className="text-center mb-14 md:mb-20"
         >
           <h2 className="section-title mb-4">
-            Why Use FiberSolution for Guidance?
+            Why Use Go Quality Networks for Guidance?
           </h2>
           <p className="section-subtitle max-w-2xl mx-auto">
-            We're committed to empowering you with the information and tools needed to choose the best telecom services.
+            We're committed to empowering you with the information needed to choose the best telecom services.
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ const WhyChooseUsSection = () => {
               Your Trusted Partner in Telecom Decisions.
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              At FiberSolution, we understand that choosing internet, TV, or phone services can be overwhelming. Our goal is to simplify this process by providing clear, accurate, and easy-to-understand information, helping you find solutions that perfectly match your needs and budget.
+              At Go Quality Networks, we understand that choosing internet, TV, or phone services can be overwhelming. Our goal is to simplify this process by providing clear, accurate, and easy-to-understand information, helping you find solutions that perfectly match your needs and budget.
             </p>
             <ul className="space-y-2.5 pt-2">
               {[

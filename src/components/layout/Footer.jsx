@@ -70,7 +70,7 @@ const Footer = () => {
                 <Zap className="w-7 h-7 text-primary group-hover:text-accent transition-colors duration-300" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors duration-300">
-                FiberSolution
+                Go Quality Networks
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
@@ -154,11 +154,11 @@ const Footer = () => {
              <div className="pt-2 space-y-2.5">
                 <a href="tel:1-800-342-3763" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Phone className="w-4 h-4 text-primary/80" />
-                  <span>1-800-FIBER-NET</span>
+                  <span>+1 (346) 792-7838</span>
                 </a>
-                <a href="mailto:support@fibersolution.net" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a href="mailto:support@goqualitynetworks.com" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="w-4 h-4 text-primary/80" />
-                  <span>support@fibersolution.net</span>
+                  <span>support@goqualitynetworks.com</span>
                 </a>
               </div>
           </div>
@@ -169,7 +169,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} FiberSolution. All rights reserved. Built by .
+              © {new Date().getFullYear()} Go Quality Networks. All rights reserved.
             </p>
             <div className="flex space-x-4 text-xs">
               {legalLinks.map(link => (
