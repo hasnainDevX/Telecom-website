@@ -346,7 +346,7 @@ const Terms = () => {
                         href="tel:1-800-342-3763"
                         className="text-primary hover:underline"
                       >
-                        +1 (346) 792-7838s
+                        713-382-9770 
                       </a>
                     </span>
                   </div>
@@ -360,7 +360,7 @@ const Terms = () => {
                       Go Quality Networks Department
                       <br />
                       <br />
-                      Houston, TX, USA
+                      5922 Clerkenwell Dr Houston TX 77084
                     </span>
                   </div>
                 </div>

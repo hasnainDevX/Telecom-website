@@ -5,10 +5,10 @@ import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 
 const ContactInfo = () => {
   const contactDetails = [
-    { icon: Phone, label: 'Customer Support', value: '+1 (346) 792-7838', href: '+1 (346) 792-7838' },
+    { icon: Phone, label: 'Customer Support', value: '713-382-9770', href: '713-382-9770' },
     { icon: Mail, label: 'General Inquiries', value: 'info@goqualitynetworks.com', href: 'mailto:info@goqualitynetworks.com' },
     { icon: MessageSquare, label: 'Support Email', value: 'support@goqualitynetworks.com', href: 'mailto:support@goqualitynetworks.com' },
-    { icon: MapPin, label: 'Corporate Office', value: 'Houston, TX' },
+    { icon: MapPin, label: 'Corporate Office', value: '5922 Clerkenwell Dr Houston TX 77084' },
   ];
 
   const businessHours = [

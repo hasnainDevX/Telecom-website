@@ -154,7 +154,7 @@ const Footer = () => {
              <div className="pt-2 space-y-2.5">
                 <a href="tel:1-800-342-3763" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Phone className="w-4 h-4 text-primary/80" />
-                  <span>+1 (346) 792-7838</span>
+                  <span>713-382-9770</span>
                 </a>
                 <a href="mailto:support@goqualitynetworks.com" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="w-4 h-4 text-primary/80" />
