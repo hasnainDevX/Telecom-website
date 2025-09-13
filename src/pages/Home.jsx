@@ -1,6 +1,5 @@
 import HeroSection from '@/components/home/HeroSection';
 import FeaturesSection from '@/components/home/FeaturesSection';
-// import PlansPreviewSection from '@/components/home/PlansPreviewSection';
 import StatsSection from '@/components/home/StatsSection';
 import TestimonialSection from '@/components/home/TestimonialSection';
 import CtaSection from '@/components/home/CtaSection';
@@ -14,7 +13,6 @@ const Home = () => {
       <FeaturesSection />
       <WhyChooseUsSection />
       <HowItWorksSection />
-      {/* <PlansPreviewSection /> */}
       <TestimonialSection />
       <StatsSection />
       <CtaSection />

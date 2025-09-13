@@ -121,7 +121,7 @@ const WhyChooseUsSection = () => {
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg animate-pulse-glow">
             <img 
-              class="w-full h-full object-cover"
+              className="w-full h-full object-cover"
               alt="A person thoughtfully comparing charts and graphs on a tablet, representing informed decision-making for telecom services."
               src={WhyChooseUsImg} />
           </div>

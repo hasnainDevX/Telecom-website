@@ -391,7 +391,7 @@ const Privacy = () => {
                         href="mailto:info@goqualitynetworks.com"
                         className="text-primary hover:underline"
                       >
-                        info@goqualitynetworks.com
+                        goqualitynetworks.com
                       </a>
                     </span>
                   </div>

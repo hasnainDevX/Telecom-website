@@ -131,7 +131,7 @@ const HeroSection = () => {
             <div className="relative w-full max-w-md xl:max-w-lg h-auto aspect-[5/4] group">
               <div className="absolute -inset-3 bg-gradient-to-br from-primary/50 to-accent/50 rounded-3xl opacity-15 group-hover:opacity-25 transition-opacity duration-500 blur-2xl animate-pulse-glow"></div>
               <img 
-                class="relative w-full h-full object-cover rounded-2xl shadow-2xl transform group-hover:scale-[1.03] transition-transform duration-500 border-2 border-border/10"
+                className="relative w-full h-full object-cover rounded-2xl shadow-2xl transform group-hover:scale-[1.03] transition-transform duration-500 border-2 border-border/10"
                 alt="Illustration of a diverse group of people happily using laptops and tablets, with network connection lines in the background, symbolizing informed telecom choices."
                 src={heroImg} />
               

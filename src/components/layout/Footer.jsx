@@ -155,9 +155,9 @@ const Footer = () => {
                   <Phone className="w-4 h-4 text-primary/80" />
                   <span>713-382-9770</span>
                 </a>
-                <a href="mailto:support@goqualitynetworks.com" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a href="mailto:goqualitynetworks@gmail.com" className="flex items-center space-x-2.5 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="w-4 h-4 text-primary/80" />
-                  <span>support@goqualitynetworks.com</span>
+                  <span>goqualitynetworks@gmail.com</span>
                 </a>
               </div>
           </div>

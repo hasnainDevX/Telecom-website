@@ -25,6 +25,8 @@ const Header = () => {
 
   useEffect(() => {
     setIsMenuOpen(false);
+    // Scroll to top when route changes
+    window.scrollTo(0, 0);
   }, [location]);
 
   const navItems = [
@@ -52,12 +54,7 @@ const Header = () => {
       initial={{ y: -120 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 
-        ${
-          isScrolled
-            ? "bg-background/80 dark:bg-background/70 backdrop-blur-lg shadow-lg border-b border-border/20"
-            : "bg-transparent"
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background/80 dark:bg-background/70 backdrop-blur-lg shadow-lg border-b border-border/20`}
     >
       <div
         className={`bg-primary/5 dark:bg-primary/10 text-primary py-1.5 px-4 text-xs transition-all duration-300 ${
@@ -74,7 +71,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:flex items-center space-x-1">
               <Mail className="w-3.5 h-3.5" />
-              <span>support@goqualitynetworks.com</span>
+              <span>goqualitynetworks@gmail.com</span>
             </div>
           </div>
           <div className="hidden md:block">
@@ -88,9 +85,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-3.5">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            {/* <div className="relative p-1.5 bg-primary/10 rounded-full"> */}
-              <img src={logo} alt="Go Quality Networks Logo" className="w-12 h-12 scale-125"/>
-            {/* </div> */}
+            <img src={logo} alt="Go Quality Networks Logo" className="w-12 h-12 scale-125"/>
             <span className="text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors duration-300">
               Go Quality Networks
             </span>
@@ -195,7 +190,7 @@ const Header = () => {
                   </NavLink>
                 ))}
                 <Button
-                  onClick={handleCallClick}
+                  onClick={() => handleNavigation('/contact')}
                   className="w-full mt-3 bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-3 rounded-md"
                 >
                   Get Connected
