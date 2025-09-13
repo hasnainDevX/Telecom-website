@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 const ContactInfo = () => {
   const contactDetails = [
     { icon: Phone, label: 'Customer Support', value: '713-382-9770', href: '713-382-9770' },
-    { icon: Mail, label: 'General Inquiries', value: 'baigusa@hotmail.com', href: 'mailto:baigusa@hotmail.com' },
+    { icon: Mail, label: 'General Inquiries', value: 'shahbazbaig74@gmail.com ', href: 'mailto:shahbazbaig74@gmail.com ' },
     { icon: MessageSquare, label: 'Support Email', value: 'goqualitynetworks@gmail.com', href: 'mailto:goqualitynetworks@gmail.com' },
     { icon: MapPin, label: 'Corporate Office', value: '5922 Clerkenwell Dr Houston TX 77084' },
   ];
