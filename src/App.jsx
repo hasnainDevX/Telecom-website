@@ -13,6 +13,7 @@ import Terms from '@/pages/Terms';
 import { ThemeProvider } from '@/components/theme/ThemeProvider';
 import ScrollToTop from './components/ScrollToTop';
 
+
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
