@@ -5,7 +5,7 @@ import { Menu, X, Zap, Phone, Mail, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { useTheme } from "@/components/theme/ThemeProvider";
-import logo from "../../assets/gqnlogo.png";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -85,10 +85,10 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-3.5">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            <img src={logo} alt="Go Quality Networks Logo" className="w-12 h-12 scale-125"/>
-            <span className="text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors duration-300">
+            <img src={logo} alt="Go Quality Networks Logo" className="w-12 h-12 md:scale-[350%] scale-[250%]"/>
+            {/* <span className="text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors duration-300">
               Go Quality Networks
-            </span>
+            </span> */}
           </Link>
 
           <div className="hidden lg:flex items-center space-x-1">
